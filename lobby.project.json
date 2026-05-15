@@ -1,0 +1,33 @@
+{
+  "name": "TrenchTrackLobby",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Packages": {
+        "$path": "Packages"
+      },
+      "LobbyShared": {
+        "$path": "src/lobby/shared"
+      },
+      "TrenchTrackCore": {
+        "$path": "src/TrenchTrackCore"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Lobby": {
+        "$path": "src/lobby/server"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "Lobby": {
+          "$path": "src/lobby/client"
+        }
+      }
+    }
+  }
+}

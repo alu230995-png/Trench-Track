@@ -1,0 +1,11 @@
+{
+    "files.exclude": {
+        "**/.vscode": false,
+        "lobby.project.json": false,
+        "match.project.json": false,
+        "src/match": false
+    },
+    "search.exclude": {
+        "**/.vscode": true
+    }
+}

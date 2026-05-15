@@ -1,0 +1,33 @@
+{
+  "name": "TrenchTrackMatch",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Packages": {
+        "$path": "Packages"
+      },
+      "MatchShared": {
+        "$path": "src/match/shared"
+      },
+      "TrenchTrackCore": {
+        "$path": "src/TrenchTrackCore"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Match": {
+        "$path": "src/match/server"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "Match": {
+          "$path": "src/match/client"
+        }
+      }
+    }
+  }
+}
